@@ -1,0 +1,29 @@
+﻿{
+"QuestionLabel": "Is predetor?",
+"Yes": {
+	"QuestionLabel": "Is fast?",
+	"Yes": 
+	{
+		"QuestionLabel": "Lion",
+		"Yes": {},
+		"No": {}
+	},
+	"No": {
+		"QuestionLabel": "Giraffe",
+		"Yes": {},
+		"No": {}     
+	}
+},
+"No": {
+	"QuestionLabel": "Is a farm animal?",
+	"Yes": {
+		"QuestionLabel": "Sheep",
+		"Yes": {},
+		"No": {}     
+	},
+	"No": {
+		"QuestionLabel": "Cat",
+		"Yes": {},
+		"No": {}	}
+}
+}

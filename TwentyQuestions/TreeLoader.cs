@@ -1,0 +1,78 @@
+﻿using Newtonsoft.Json;
+using System.IO;
+
+namespace TwentyQuestions
+{
+    class TreeLoader
+    {
+        public Question root { get; set; }
+
+        public TreeLoader() {
+            LoadTree();
+        }
+
+        void LoadTree() {
+            root = JsonConvert.DeserializeObject<Question>(File.ReadAllText("animals.txt"));
+        }
+
+        public void SaveTree(Question tree)
+        {
+            File.WriteAllText("animals.txt", JsonConvert.SerializeObject(tree));
+        }
+    }
+
+    class TreeNavigator
+    {
+        private static TreeNavigator navigator = null;
+
+        Question root;
+        TreeLoader loader;
+        public Question current { get; set; }
+
+        private TreeNavigator() {
+            loader = new TreeLoader();
+            root = loader.root;
+            current = root;
+        }
+
+        public static TreeNavigator Instance
+        {
+            get
+            {
+                if (navigator == null)
+                {
+                    navigator = new TreeNavigator();
+                }
+                return navigator;
+            }
+        }
+
+        // answer = 1 (yes) or = 0 (no)
+        public Question GetNext(bool answer) {
+            if (answer)
+                current = current.Yes;
+            else
+                current = current.No;
+
+            return current;
+        }
+
+        public void UpdateTree(string quest, string answer) {
+            Question q = new Question();
+            q.QuestionLabel = quest;
+            q.Yes = new Question();
+            q.Yes.QuestionLabel = answer;
+
+            current.No = q;
+        }
+
+        public void Reset() {
+            current = root;
+        }
+
+        public void Save() {
+            loader.SaveTree(root);
+        }
+
+    }
+}
