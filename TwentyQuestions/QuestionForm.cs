@@ -24,7 +24,7 @@ namespace TwentyQuestions
         private void yes_button_Click(object sender, EventArgs e)
         {
             Question q = navigator.GetNext(true);
-            if (q == null || q.IsLeaf())
+            if (q == null)
             {
                 // Found our answer!
                 DialogResult result = MessageBox.Show("Yaay! guessed it .. Play again?!",
@@ -40,7 +40,7 @@ namespace TwentyQuestions
         private void no_button_Click(object sender, EventArgs e)
         {
             Question q = navigator.GetNext(false);
-            if (q == null || q.IsLeaf())
+            if (q == null)
             {
                 // Don't know the answer
                 NewQuestionForm form = new NewQuestionForm();

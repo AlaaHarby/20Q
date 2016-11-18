@@ -37,10 +37,10 @@
             // 
             this.q_label.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.q_label.Font = new System.Drawing.Font("Pristina", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.q_label.Location = new System.Drawing.Point(-1, 190);
+            this.q_label.Font = new System.Drawing.Font("Pristina", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.q_label.Location = new System.Drawing.Point(-6, 87);
             this.q_label.Name = "q_label";
-            this.q_label.Size = new System.Drawing.Size(788, 40);
+            this.q_label.Size = new System.Drawing.Size(829, 70);
             this.q_label.TabIndex = 0;
             this.q_label.Text = "label";
             this.q_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -51,10 +51,10 @@
             this.yes_button.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.yes_button.AutoSize = true;
-            this.yes_button.Font = new System.Drawing.Font("Pristina", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.yes_button.Location = new System.Drawing.Point(176, 350);
+            this.yes_button.Font = new System.Drawing.Font("Pristina", 12F);
+            this.yes_button.Location = new System.Drawing.Point(171, 236);
             this.yes_button.Name = "yes_button";
-            this.yes_button.Size = new System.Drawing.Size(75, 45);
+            this.yes_button.Size = new System.Drawing.Size(134, 45);
             this.yes_button.TabIndex = 1;
             this.yes_button.Text = "Yes";
             this.yes_button.UseVisualStyleBackColor = true;
@@ -65,10 +65,10 @@
             this.no_button.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.no_button.AutoSize = true;
-            this.no_button.Font = new System.Drawing.Font("Pristina", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.no_button.Location = new System.Drawing.Point(525, 350);
+            this.no_button.Font = new System.Drawing.Font("Pristina", 12F);
+            this.no_button.Location = new System.Drawing.Point(520, 236);
             this.no_button.Name = "no_button";
-            this.no_button.Size = new System.Drawing.Size(75, 45);
+            this.no_button.Size = new System.Drawing.Size(134, 45);
             this.no_button.TabIndex = 2;
             this.no_button.Text = "No";
             this.no_button.UseVisualStyleBackColor = true;
@@ -78,7 +78,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(784, 598);
+            this.ClientSize = new System.Drawing.Size(825, 397);
             this.Controls.Add(this.no_button);
             this.Controls.Add(this.yes_button);
             this.Controls.Add(this.q_label);

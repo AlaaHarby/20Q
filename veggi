@@ -18,17 +18,24 @@ Is it rich in Iron? 10, 2
 Is it red? 12, 2
 Can you cook it? 4, 10
 
-Peas            (n, n, y, n, y, n, n, y, n, n, n, n, n, y, n, y, n, n, y)
-brussle sprouts (n, n, y, n, y, n, n, n, n, n, ., y, n, n, n, y, n, n, y)
-Potatos         (n, y, y, n, n, n, y, y, y, n, y, y, y, y, n, n, n, n, y)
-onions          (y, y, y, n, n, n, y, y, y, y, ., y, n, n, y, n, n, n, y)
-radish          (y, n, y, n, n, y, y, y, y, n, n, y, n, n, n, y, n, y, n)
-tomatos         (n, y, y, y, n, ., y, y, y, y, n, n, y, y, n, n, n, y, n)
+
 zucchini        (y, n, n, n, y, n, y, y, y, n, y, y, y, y, n, n, n, n, y)
-Mushroom        (n, n, n, n, n, y, y, y, y, n, n, n, y, n, n, y, n, n, y)
-Carrots         (y, y, n, n, n, y, y, y, y, n, n, y, n, n, n, y, n, n, n)
-Spinach			(n, n, n, n, y, y, n, y, y, n, n, n, n, n, n, y, y, n, y)
-peppers			(y, y, y, y, n, n, y, y, y, n, y, n, y, n, n, n, ., n, y)
 cucmber			(y, n, n, n, y, n, y, y, y, y, n, y, n, n, n, n, n, n, n)
 Broccoli		(y, n, n, n, y, y, n, y, n, n, y, n, n, n, n, y, y, n, y)
+Spinach			(n, n, n, n, y, y, n, y, y, n, n, n, n, n, n, y, y, n, y)
+
 cauliflower		(y, n, n, n, n, y, n, y, n, n, y, n, n, y, n, y, n, n, y)
+Mushroom        (n, n, n, n, n, y, y, y, y, n, n, n, y, n, n, y, n, n, y)
+Carrots         (y, y, n, n, n, y, y, y, y, n, n, y, n, n, n, y, n, n, n)
+
+
+brussle sprouts (n, n, y, n, y, n, n, n, n, n, ., y, n, n, n, y, n, n, y)
+Potatos         (n, y, y, n, n, n, y, y, y, n, y, y, y, y, n, n, n, n, y)
+radish          (y, n, y, n, n, y, y, y, y, n, n, y, n, n, n, y, n, y, n)
+onions          (y, y, y, n, n, n, y, y, y, y, ., y, n, n, y, n, n, n, y)
+
+tomatos         (n, y, y, y, n, ., y, y, y, y, n, n, y, y, n, n, n, y, n)
+peppers			(y, y, y, y, n, n, y, y, y, n, y, n, y, n, n, n, ., n, y)
+Peas            (n, n, y, n, y, n, n, y, n, n, n, n, n, y, n, y, n, n, y)
+
+

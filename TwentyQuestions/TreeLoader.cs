@@ -26,7 +26,10 @@ namespace TwentyQuestions
         private static TreeNavigator navigator = null;
 
         Question root;
+        Question parent;
+
         TreeLoader loader;
+
         public Question current { get; set; }
 
         private TreeNavigator() {
@@ -49,6 +52,8 @@ namespace TwentyQuestions
 
         // answer = 1 (yes) or = 0 (no)
         public Question GetNext(bool answer) {
+            parent = current;
+
             if (answer)
                 current = current.Yes;
             else
@@ -61,9 +66,9 @@ namespace TwentyQuestions
             Question q = new Question();
             q.QuestionLabel = quest;
             q.Yes = new Question();
-            q.Yes.QuestionLabel = answer;
+            q.Yes.QuestionLabel = "Is it " + answer + "?";
 
-            current.No = q;
+            parent.No = q;
         }
 
         public void Reset() {
