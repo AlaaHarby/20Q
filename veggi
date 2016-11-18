@@ -1,0 +1,34 @@
+Is it crunchy? 6, 8
+Does it come with different colors? 9, 5
+Is it round? 7, 7
+Does it have a seed? 12, 2
+Is it usually green? 8, 6
+Does it have roots? 7, 6
+Is it usually sliced? 5, 9
+Is it found in salad bars? 1, 13
+Is it normally planted in gardens? 4, 10 
+Does it contain a lot of water? 11, 3
+Does it taste good fried? 7, 5
+Can you peel it? 7, 7
+Can you stuff it? 9, 5
+Can you mash it? 9, 5
+Does it have a strong smell? 13, 1
+Does it come in a pack? 6, 8
+Is it rich in Iron? 10, 2
+Is it red? 12, 2
+Can you cook it? 4, 10
+
+Peas            (n, n, y, n, y, n, n, y, n, n, n, n, n, y, n, y, n, n, y)
+brussle sprouts (n, n, y, n, y, n, n, n, n, n, ., y, n, n, n, y, n, n, y)
+Potatos         (n, y, y, n, n, n, y, y, y, n, y, y, y, y, n, n, n, n, y)
+onions          (y, y, y, n, n, n, y, y, y, y, ., y, n, n, y, n, n, n, y)
+radish          (y, n, y, n, n, y, y, y, y, n, n, y, n, n, n, y, n, y, n)
+tomatos         (n, y, y, y, n, ., y, y, y, y, n, n, y, y, n, n, n, y, n)
+zucchini        (y, n, n, n, y, n, y, y, y, n, y, y, y, y, n, n, n, n, y)
+Mushroom        (n, n, n, n, n, y, y, y, y, n, n, n, y, n, n, y, n, n, y)
+Carrots         (y, y, n, n, n, y, y, y, y, n, n, y, n, n, n, y, n, n, n)
+Spinach			(n, n, n, n, y, y, n, y, y, n, n, n, n, n, n, y, y, n, y)
+peppers			(y, y, y, y, n, n, y, y, y, n, y, n, y, n, n, n, ., n, y)
+cucmber			(y, n, n, n, y, n, y, y, y, y, n, y, n, n, n, n, n, n, n)
+Broccoli		(y, n, n, n, y, y, n, y, n, n, y, n, n, n, n, y, y, n, y)
+cauliflower		(y, n, n, n, n, y, n, y, n, n, y, n, n, y, n, y, n, n, y)

@@ -1,0 +1,96 @@
+{"QuestionLabel": "Is it round?"
+"Yes": {
+	"QuestionLabel": "Can you peel it?"
+	"Yes": {
+		"QuestionLabel": "Is it crunchy?"
+		"Yes": {
+			"QuestionLabel": "Is it usually green:"
+			"Yes": {
+				"QuestionLabel": "Is it brussle sprouts?"
+				"Yes": {},
+				"No": {}     
+			},
+			"No": {
+				"QuestionLabel": "Is it potatoes?"
+				"Yes": {},
+				"No": {}     
+			}
+		} ,
+		"No": {
+			"QuestionLabel": "Does it have a strong smell?"
+			"Yes": {
+				"QuestionLabel": "Is it onion?"
+				"Yes": {},
+				"No": {}     
+			},
+			"No": {
+				"QuestionLabel": "Is it raddish?"
+				"Yes": {},
+				"No": {}  
+			} 
+		}  
+	} ,
+	"No": {
+		"QuestionLabel": "Is it usually sliced?"
+		"Yes": {
+			"QuestionLabel": "Is it crunchy?"
+			"Yes": {
+				"QuestionLabel": "Is it peppers?"
+				"Yes": {},
+				"No": {}  
+			},
+			"No": {
+				"QuestionLabel": "Is it tomatoes?"
+				"Yes": {},
+				"No": {} 
+			} 
+		},
+		"No": {
+			"QuestionLabel": "Is it peas?"
+			"Yes": {},
+			"No": {}  
+		}
+	}
+},
+"No": {
+	"QuestionLabel": "Is it usually green?"
+	"Yes": {
+		"QuestionLabel": "Does it have roots?"
+		"Yes":
+			"QuestionLabel": "Does it taste good fried?"
+			"Yes": 
+				"QuestionLabel": "Is it broccoli?"
+			"No": 
+				"QuestionLabel": "Is it spinach?"
+		"No":
+			"QuestionLabel": "Can you stuff it?"
+			"Yes": 
+				"QuestionLabel": "Is it zucchini?"
+			"No": 
+				"QuestionLabel": "Is it cucumber?"
+	},
+	"No": {
+		"QuestionLabel": "Can you stuff it?"
+		"Yes": {
+			"QuestionLabel": "Is it mushroom?"
+			"Yes": {},
+			"No": {}  
+		},
+		"No": {
+			"QuestionLabel": "Does it come with different colors?"
+			"Yes": {
+				"QuestionLabel": "Is it carrots?"
+				"Yes": {},
+				"No": {}  
+			},
+			"No": {
+				"QuestionLabel": "Is it cauliflower?"
+				"Yes": {},
+				"No": {}  
+			}
+		}
+	}
+}
+}
+
+

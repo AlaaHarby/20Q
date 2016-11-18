@@ -12,12 +12,12 @@ namespace TwentyQuestions
         }
 
         void LoadTree() {
-            root = JsonConvert.DeserializeObject<Question>(File.ReadAllText("animals.txt"));
+            root = JsonConvert.DeserializeObject<Question>(File.ReadAllText("vegetables.txt"));
         }
 
         public void SaveTree(Question tree)
         {
-            File.WriteAllText("animals.txt", JsonConvert.SerializeObject(tree));
+            File.WriteAllText("vegetables.txt", JsonConvert.SerializeObject(tree));
         }
     }
 
